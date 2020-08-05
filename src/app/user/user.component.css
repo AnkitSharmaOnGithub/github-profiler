@@ -1,0 +1,89 @@
+#basicInfo{
+    background-color: #000;
+    color: rgb(200, 225, 255);;
+    text-align: center;
+    padding: 5rem 8rem;
+}
+
+#basicInfo a{
+    font-size: 1.2rem;
+}
+
+.profilePic>img{
+    max-width: 200px;
+    border : 10px solid rgb(0, 112, 243);
+    border-radius: 50%;
+}
+
+
+.info,.stats{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.info{
+    margin-top: 1.5rem;
+}
+
+.info>ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.stats{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+}
+
+
+.card{
+    background-color: rgb(36, 41, 46);
+}
+
+#reposSection{
+    background-color: #fff;
+    margin: auto;
+}
+
+#reposSection .card{
+    background-color: #fff;
+}
+
+.repos{
+    padding: 4rem 8rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+}
+
+a.repo{
+    text-decoration: none;
+    color: #000;
+}
+
+.repos h6{
+    font-size: 0.9rem;
+}
+
+.repo-stats{
+    color: rgb(106, 115, 125);
+    margin-top: 2rem;
+}
+
+.repo-stats .stats-left span{
+    margin-right: 0.75rem;
+}
+
+div.language{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    margin-right: 0.25rem;
+    border-radius: 100%;
+}
